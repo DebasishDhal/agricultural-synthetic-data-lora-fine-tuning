@@ -3,7 +3,7 @@
 - Base model: [meta-llama/Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
 - Training data: [DebasishDhal99/agriculture-synthetic-finetuning-dataset train split](https://huggingface.co/datasets/DebasishDhal99/agriculture-synthetic-finetuning-dataset)
 - Benchmark data: [DebasishDhal99/agriculture-synthetic-finetuning-dataset benchmark_hard split](https://huggingface.co/datasets/DebasishDhal99/agriculture-synthetic-finetuning-dataset)
-- Training run: https://forge.coreweave.com/wandb/debasishdhal/AgriFineTuningDemo-Sep2026/runs/83hzvezl?nw=nwuserdebasishdhal (Sadly it's not public, I didn't make this run public in the beginning, and I was unable to change the project visibility later. If you need to view the training runs, send me your email, I'll add you manually to the project.)
+- Training run: https://forge.coreweave.com/wandb/debasishdhal/AgriFineTuningDemo-Sep2026/runs/83hzvezl?nw=nwuserdebasishdhal
 - Fine-tuned model's Benchmark score: 90% (90% of 300 questions were answered correctly)
 - Base model's Benchmark score: 72%
 - Improvement of 18% more questions being correctly answered bacause of fine-tuning.
@@ -25,7 +25,7 @@ Benchmark scores for base Llama 3B model with synthetic training data
 - Base model: [meta-llama/Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
 - Training data: [KisanVaani/agriculture-qa-english-only train split](https://huggingface.co/datasets/KisanVaani/agriculture-qa-english-only)
 - Benchmark data: [bharatgenai/BhashaBench-Krishi first 500 rows](https://huggingface.co/datasets/bharatgenai/BhashaBench-Krishi)
-- Training run: https://forge.coreweave.com/wandb/debasishdhal/AgriFineTuningDemo-Sep2026/runs/is0hv1hx (For LORA), https://forge.coreweave.com/wandb/debasishdhal/AgriFineTuningDemo-Sep2026/runs/3ueuokh0 (For QLORA) (Ditto, it's not public)
+- Training run: https://forge.coreweave.com/wandb/debasishdhal/AgriFineTuningDemo-Sep2026/runs/is0hv1hx (For LORA), https://forge.coreweave.com/wandb/debasishdhal/AgriFineTuningDemo-Sep2026/runs/3ueuokh0 (For QLORA)
 - Fine-tuned model's benchmark score: 32%
 
 - Base model's benchmark score: 39%
