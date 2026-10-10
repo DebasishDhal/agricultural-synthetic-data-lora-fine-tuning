@@ -12,3 +12,7 @@ Dataset 2: (Final Dataset)
 - Training Dataset: [DebasishDhal99/agriculture-synthetic-finetuning-dataset, train split](https://huggingface.co/datasets/DebasishDhal99/agriculture-synthetic-finetuning-dataset) (1000 rows)
 - Eval Dataset: [DebasishDhal99/agriculture-synthetic-finetuning-dataset, validation split](https://huggingface.co/datasets/DebasishDhal99/agriculture-synthetic-finetuning-dataset) (100 rows)
 - Benchmark Dataset: [DebasishDhal99/agriculture-synthetic-finetuning-dataset, benchmark_split split](https://huggingface.co/datasets/DebasishDhal99/agriculture-synthetic-finetuning-dataset) (300 rows)
+
+
+- The dataset 2 is a completely synthetic dataset, made via ChatGPT.
+- Initially, the model was getting a full 100% score on the `benchmark` split of the dataset. So, a harder split (`dataset_split`) was made.
