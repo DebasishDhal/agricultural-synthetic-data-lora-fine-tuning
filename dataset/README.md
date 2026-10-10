@@ -15,4 +15,4 @@ Dataset 2: (Final Dataset)
 
 
 - The dataset 2 is a completely synthetic dataset, made via ChatGPT.
-- Initially, the model was getting a full 100% score on the `benchmark` split of the dataset. So, a harder split (`dataset_split`) was made.
+- Initially, the model was getting a full 100% score on the `benchmark` split of the dataset. So, a harder split (`benchmark_hard`) was made.
